@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+    <title>GRE-quiz</title>
+  </head>
+  <body onload="ini()">
+    <div class="quiz" id="quiz">
+      <div id="ques-1">Welcome to GRE simulator
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br></div>
+
+    </div>
+    <div class="util" id="lrbtn">
+      <button id="prev" onclick="toPrev()">Prev</button>
+      <button id="next" onclick="toNext()">Next</button>
+    </div>
+    <div class="util" id="checkAns" style="display:none">
+      <input type="text" name="refAns" value="" style="width:500px"> <br>
+      <button type="button" name="button" onclick="startCheck()">Check</button>
+    </div>
+    <div class="sideb">
+      <div class="tim" id="tim">12:30</div>
+      <input type="text" name="timconf" value="">
+      <button type="button" name="button" onclick="setTime()">Set Time</button>
+    </div>
+    <div id="incorrect"></div>
+
+    <script type="text/javascript" src="./quiz.json">
+    </script>
+    <script type="text/javascript" src="./quiz.js">
+    </script>
+  </body>
+</html>

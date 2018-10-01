@@ -1,0 +1,70 @@
+.quiz {
+  width : 75%;
+  height: auto;
+  font-size:40px;
+  text-align:center;
+  margin-top: 100px;
+  float:left;
+  margin-left:50px;
+}
+
+.util {
+  width : 80%;
+  height: 100px;
+  text-align: center;
+}
+
+.sideb {
+  width: 20%;
+  height: 600px;
+  float: left;
+  background-color: #ddddff;
+  font-size:30px;
+  text-align: center;
+}
+
+.tim {
+  height: 100px;
+  margin-top:50px;
+  font-size:50px;
+  text-align:center;
+}
+
+.util button {
+  width: 200px;
+  height:70px;
+  text-align: center;
+  background-color: #000000;
+  border-radius: 0;
+  text-transform: uppercase;
+  white-space: normal !important;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left:200px;
+  margin-right: 200px;
+  color: #ffffff;
+  font-weight: bold;
+  font-style:italic;
+}
+
+.ques {
+  display: none;
+  height :auto;
+  text-align: left;
+}
+
+.readCont {
+  height:auto;
+  width:40%;
+  float:left;
+  font-size: 30px;
+  text-align: left;
+}
+.readQues {
+  height:auto;
+  width:37%;
+  float:left;
+  margin-left:50px;
+  font-size: 30px;
+  text-align: left;
+}
