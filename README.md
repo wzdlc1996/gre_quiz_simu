@@ -37,7 +37,8 @@ quiz.md file has a usual markdown format:
 ```
 
 ## About Index.html
-The countdown timmer right can be set.
+The countdown timmer right can be set by format:
+min.sec
 When you finish all questions, and click the 'NEXT' button, the test will finish. and then you should input the reference answer in format:
 A,B,ABC,AB,...
 And click 'CHECK' , it will pop all question of which your answer is incorrect.
